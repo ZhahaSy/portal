@@ -78,7 +78,15 @@ function Home({ config }: { config: SiteConfig }) {
             </>
           )
 
-          return project.link ? (
+          return project.id ? (
+            <Link
+              key={project.name}
+              className="project-card"
+              to={`/project/${project.id}`}
+            >
+              {cardContent}
+            </Link>
+          ) : project.link ? (
             <a
               key={project.name}
               className="project-card"
@@ -89,13 +97,9 @@ function Home({ config }: { config: SiteConfig }) {
               {cardContent}
             </a>
           ) : (
-            <Link
-              key={project.name}
-              className="project-card"
-              to={`/project/${project.id}`}
-            >
+            <div key={project.name} className="project-card">
               {cardContent}
-            </Link>
+            </div>
           )
         })}
       </div>

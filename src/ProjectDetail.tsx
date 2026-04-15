@@ -17,8 +17,6 @@ function ProjectDetail({ config }: { config: SiteConfig }) {
     )
   }
 
-  const isAndroid = project.platform.includes('android')
-
   return (
     <div className="detail-page">
       <div className="detail-container">
@@ -64,7 +62,7 @@ function ProjectDetail({ config }: { config: SiteConfig }) {
         )}
 
         <div className="detail-actions">
-          {isAndroid && project.downloadUrl && (
+          {project.downloadUrl && (
             <a href={project.downloadUrl} download className="download-btn">
               📥 下载 APK
             </a>
