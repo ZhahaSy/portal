@@ -1,0 +1,53 @@
+{
+  "site": {
+    "title": "On Your Left - 张哈哈的个人项目门户",
+    "subtitle": "个人项目门户 — 浏览器端 & Android 应用集合",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/ZhahaSy" }
+    ]
+  },
+  "filters": [
+    { "label": "全部", "value": "all" },
+    { "label": "🌐 Web", "value": "web" },
+    { "label": "📱 Android", "value": "android" },
+    { "label": "🔧 工具", "value": "tool" }
+  ],
+  "projects": [
+    {
+      "name": "AI 智能待办管理系统（Todor）",
+      "desc": "基于 LangChain + DeepSeek 的对话式任务管理应用，通过自然语言交互完成待办创建、提醒设置、深度讨论等操作。",
+      "icon": "🌐",
+      "platform": ["web"],
+      "tags": [{ "label": "Web", "type": "web" }, { "label": "React", "type": "web" }, { "label": "LangChain", "type": "web" }, { "label": "nest.js", "type": "web" }],
+      "link": "http://101.132.26.69"
+    },
+    {
+      "name": "AI 学习平台",
+      "desc": "基于 React + Nest.js + RAG 的学习平台，支持文档导入，课程生成，AI问答。",
+      "icon": "📝",
+      "platform": ["web"],
+      "tags": [{ "label": "Web", "type": "web" }, { "label": "React", "type": "web" }, { "label": "Nest.js", "type": "web" }, { "label": "RAG", "type": "web" }],
+      "link": "http://101.132.26.69:8081"
+    },
+    {
+      "name": "AI 智能无限笔记（infinity）",
+      "desc": "基于 React + MiniMax 的无限笔记应用，支持无限创建、分类和搜索笔记。",
+      "icon": "📝",
+      "platform": ["web", "tool"],
+      "tags": [{ "label": "Web", "type": "web" }, { "label": "React", "type": "web" }, { "label": "工具", "type": "tool" }],
+      "link": "http://101.132.26.69:8082"
+    },
+    
+    {
+      "id": "lizhi",
+      "name": "Lizhi 音乐软件",
+      "desc": "基于 expo实现的 音乐软件，支持lizhi相关音乐播放，搜索，推荐。支持Android平台。",
+      "detail": "基于 Expo + React Native 实现的音乐播放软件，支持 Lizhi 相关音乐播放、搜索和推荐。界面简洁流畅，支持 Android 平台。",
+      "icon": "🎵",
+      "platform": ["android", "expo", "react-native"],
+      "tags": [{ "label": "Android", "type": "android" }, { "label": "Expo", "type": "expo" }, { "label": "React Native", "type": "react-native" }],
+      "downloadUrl": "/downloads/lizhi.apk",
+      "version": "1.0.0"
+    }
+  ]
+}
