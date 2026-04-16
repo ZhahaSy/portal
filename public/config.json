@@ -26,7 +26,7 @@
         { "label": "gradlew", "type": "android" }
       ],
       "link": "http://101.132.26.69",
-      "downloadUrl": "/downloads/todor.apk",
+      "downloadUrl": "http://101.132.26.69/downloads/todor.apk",
       "version": "1.0.0"
     },
     {
@@ -67,7 +67,7 @@
         { "label": "Expo", "type": "expo" },
         { "label": "React Native", "type": "react-native" }
       ],
-      "downloadUrl": "/downloads/lizhi.apk",
+      "downloadUrl": "http://101.132.26.69/downloads/lizhi.apk",
       "version": "1.0.0"
     }
   ]
