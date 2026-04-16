@@ -115,7 +115,7 @@ function App() {
   const [config, setConfig] = useState<SiteConfig | null>(null)
 
   useEffect(() => {
-    fetch('/config.json')
+    fetch(import.meta.env.BASE_URL + 'config.json')
       .then(r => r.json())
       .then(setConfig)
   }, [])
